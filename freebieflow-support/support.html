@@ -1,41 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FreebieFlow Support</title>
-  <style>
-    body { font-family: "Helvetica Neue", Arial, sans-serif; margin: 0; padding: 24px; line-height: 1.6; color: #0f172a; background: #f8fafc; }
-    .card { max-width: 760px; margin: 0 auto; background: #fff; border-radius: 12px; padding: 28px 32px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08); }
-    h1 { margin-top: 0; font-size: 28px; }
-    h2 { margin-bottom: 8px; color: #f97316; }
-    a { color: #f97316; }
-    .section { margin-top: 18px; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>FreebieFlow Support</title>
+    <style>
+        body { font-family: Arial, sans-serif; background: #fafafc; margin: 0; padding: 2em; }
+        .container { max-width: 600px; margin: auto; background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #ddd; padding: 2em; }
+        h1 { color: #175cff; }
+        .contact { margin: 1em 0; }
+        .faq { margin-top: 2em; }
+        .faq h2 { color: #333; margin-top: 1em; }
+        .faq p { color: #444; margin-bottom: 0.8em; }
+        a { color: #175cff; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
 </head>
 <body>
-  <div class="card">
-    <h1>FreebieFlow — Help Center</h1>
-    <p>Contact us and find quick fixes below.</p>
-
-    <div class="section">
-      <h2>Contact Us</h2>
-      <p>Email: <a href="mailto:dinamikjames@gmail.com">dinamikjames@gmail.com</a></p>
+    <div class="container">
+        <h1>FreebieFlow: App Support</h1>
+        <p>This is the official support page for <b>FreebieFlow</b>, a web app that tracks services offering free credits or trials. It reminds you when renewals are due and keeps your "used" vs "active" services organized.</p>
+        
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:freebieflow@iriedinamik.org">freebieflow@iriedinamik.org</a></p>
+        </div>
+        
+        <div class="faq">
+            <h2>FAQ</h2>
+            
+            <p><strong>Q: What is FreebieFlow?</strong><br>
+            A: FreebieFlow is a web app that tracks services offering free credits or trials. It reminds you when renewals are due and keeps your "used" vs "active" services organized.</p>
+            
+            <p><strong>Q: How do I add a new service?</strong><br>
+            A: Click the "Add Service" button, fill in the service name, associated email, number of free credits, and the renewal date, then hit Save.</p>
+            
+            <p><strong>Q: Can I edit or delete a service later?</strong><br>
+            A: Yes. Click on a service to edit it, or use the delete button to remove entries you no longer need.</p>
+            
+            <p><strong>Q: What does the "Used" toggle do?</strong><br>
+            A: Marking a service as "Used" moves it to the Used section so you can focus on remaining freebies. When the renewal date passes, FreebieFlow automatically resets it to Active with the next renewal date.</p>
+            
+            <p><strong>Q: Where is my data stored?</strong><br>
+            A: All your data is stored locally in your browser's localStorage. Your data never leaves your device and is completely private.</p>
+            
+            <p><strong>Q: How can I request a feature or report a bug?</strong><br>
+            A: Open a <a href="https://github.com/KimaniDJ11/FreebieFlow/issues">GitHub issue</a> or email us at <a href="mailto:freebieflow@iriedinamik.org">freebieflow@iriedinamik.org</a>.</p>
+        </div>
+        
+        <div class="links" style="margin-top:2em;">
+            <h2>Helpful Resources</h2>
+            <ul>
+                <li><a href="https://github.com/KimaniDJ11/FreebieFlow">App Source Code (GitHub)</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="index.html">Back to App</a></li>
+            </ul>
+        </div>
     </div>
-
-    <div class="section">
-      <h2>Troubleshooting</h2>
-      <ul>
-        <li><strong>Offer redemption</strong>: Verify location services if required by offers.</li>
-        <li><strong>Web PWA issues</strong>: Clear cache and reload; add to Home Screen for best performance.</li>
-        <li><strong>Missing credits</strong>: Contact us with your account email and timestamp.</li>
-      </ul>
-    </div>
-
-    <div class="section">
-      <h2>Privacy & Data</h2>
-      <p>Data is used to surface relevant offers. Request access or deletion via email.</p>
-    </div>
-  </div>
 </body>
 </html>
