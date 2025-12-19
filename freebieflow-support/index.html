@@ -4,24 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CouplesBingo - Support</title>
+    <title>FreebieFlow - Support</title>
     <style>
         :root {
-            --primary-color: #ec4899;
-            --background-color: #FDF2F8;
+            --primary-color: #3b82f6;
+            --background-color: #F8FAFC;
             --card-background: #FFFFFF;
-            --text-color: #1F2937;
-            --secondary-text: #6B7280;
-            --border-color: #FBE7F3;
+            --text-color: #0F172A;
+            --secondary-text: #64748B;
+            --border-color: #E2E8F0;
         }
 
         @media (prefers-color-scheme: dark) {
             :root {
                 --background-color: #000000;
-                --card-background: #1F2937;
+                --card-background: #1E293B;
                 --text-color: #FFFFFF;
-                --secondary-text: #9CA3AF;
-                --border-color: #374151;
+                --secondary-text: #94A3B8;
+                --border-color: #334155;
             }
         }
 
@@ -49,7 +49,7 @@
             width: 100px;
             height: 100px;
             border-radius: 22px;
-            box-shadow: 0 10px 25px rgba(236, 72, 153, 0.25);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.25);
             object-fit: cover;
             margin-bottom: 24px;
         }
@@ -167,7 +167,7 @@
             font-weight: 600;
             font-size: 17px;
             margin-bottom: 24px;
-            box-shadow: 0 4px 12px rgba(236, 72, 153, 0.3);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
             transition: transform 0.2s;
         }
 
@@ -194,9 +194,9 @@
 <body>
     <div class="container">
         <div class="header">
-            <img src="logo.jpg" alt="CouplesBingo Logo" class="logo">
-            <h1>CouplesBingo</h1>
-            <p class="subtitle">Connect & Play Together.</p>
+            <img src="logo.jpg" alt="FreebieFlow Logo" class="logo">
+            <h1>FreebieFlow</h1>
+            <p class="subtitle">Track subscriptions & free trials.</p>
         </div>
 
         <div class="search-container">
@@ -205,30 +205,55 @@
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
-            <input type="text" class="search-input" placeholder="Search FAQs..." id="searchInput">
+            <input type="text" class="search-input" placeholder="How do I add a service?..." id="searchInput">
         </div>
 
         <div class="faq-list" id="faqList">
             <details>
-                <summary>App not loading?</summary>
+                <summary>What is FreebieFlow?</summary>
                 <div class="answer">
-                    Try force quitting the app and reopening it. If the issue persists, check for updates in the App
-                    Store.
+                    FreebieFlow is a web app that tracks services offering free credits or trials. It reminds you when
+                    renewals are due and keeps your "used" vs "active" services organized.
                 </div>
             </details>
 
             <details>
-                <summary>Missing cards or purchase?</summary>
+                <summary>How do I add a new service?</summary>
                 <div class="answer">
-                    Ensure you are signed in with the same Apple ID used to make the purchase. You can also try the
-                    "Restore Purchases" button in the settings menu.
+                    Click the "Add Service" button, fill in the service name, associated email, number of free credits,
+                    and the renewal date, then hit Save.
                 </div>
             </details>
 
             <details>
-                <summary>Notifications disabled?</summary>
+                <summary>Can I edit or delete a service later?</summary>
                 <div class="answer">
-                    Re-enable notifications by going to your iOS Settings → Notifications → CouplesBingo.
+                    Yes. Click on a service to edit it, or use the delete button to remove entries you no longer need.
+                </div>
+            </details>
+
+            <details>
+                <summary>What does the "Used" toggle do?</summary>
+                <div class="answer">
+                    Marking a service as "Used" moves it to the Used section so you can focus on remaining freebies.
+                    When the renewal date passes, FreebieFlow automatically resets it to Active with the next renewal
+                    date.
+                </div>
+            </details>
+
+            <details>
+                <summary>Where is my data stored?</summary>
+                <div class="answer">
+                    All your data is stored locally in your browser's localStorage. Your data never leaves your device
+                    and is completely private.
+                </div>
+            </details>
+
+            <details>
+                <summary>How can I request a feature or report a bug?</summary>
+                <div class="answer">
+                    You can open a <a href="https://github.com/KimaniDJ11/FreebieFlow/issues"
+                        style="color:var(--primary-color)">GitHub issue</a> or email support.
                 </div>
             </details>
         </div>
@@ -238,12 +263,13 @@
         </div>
 
         <div class="footer">
-            <a href="mailto:dinamikjames@gmail.com" class="contact-button">Contact Support</a>
+            <a href="mailto:freebieflow@iriedinamik.org" class="contact-button">Contact Support</a>
             <div class="footer-links">
                 <a href="privacy.html">Privacy Policy</a>
+                <a href="https://github.com/KimaniDJ11/FreebieFlow">GitHub</a>
             </div>
             <p style="margin-top: 30px; color: var(--secondary-text); font-size: 13px;">
-                &copy; 2025 CouplesBingo. All rights reserved.
+                &copy; 2025 Irie Dinamik LLC. All rights reserved.
             </p>
         </div>
     </div>
